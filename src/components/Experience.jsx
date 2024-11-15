@@ -45,7 +45,7 @@ function Experience(props) {
   }, []);
 
   return (
-    <>
+    <main className="main-2">
       <Header title={header} />
 
       {data
@@ -101,7 +101,7 @@ function Experience(props) {
             </Container>
           </div>
         ) : <FallbackSpinner /> }
-    </>
+    </main>
   );
 }
 

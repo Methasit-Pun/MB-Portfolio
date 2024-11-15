@@ -1,0 +1,67 @@
+/* Footer Styles */
+.footer {
+    background-color: var(--footer-background);
+    color: var(--footer-text);
+    text-align: center;
+    padding: 20px;/*20px*/
+    margin-top: 10% 0 ;
+    /*Keepsfooteratthebottomofthepage*/transition: background-color 0.3s ease, color 0.3s ease;
+    /*Smoothtransitionforthemechange*/-webkit-transition: background-color 0.3s ease, color 0.3s ease;
+    -moz-transition: background-color 0.3s ease, color 0.3s ease;
+    -ms-transition: background-color 0.3s ease, color 0.3s ease;
+    -o-transition: background-color 0.3s ease, color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .social-links {
+    margin-top: 15px;
+  }
+  
+  .social-links a {
+    color: var(--footer-link-color);
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: var(--footer-link-hover-color);
+  }
+  
+  /* Dark Mode Variables */
+  [data-theme="dark"] {
+    --footer-background: #333;
+    --footer-text: #fff;
+    --footer-link-color: #fff;
+    --footer-link-hover-color: #ddd;
+  }
+  
+  /* Light Mode Variables */
+  [data-theme="light"] {
+    --footer-background: #f4f4f4;
+    --footer-text: #333;
+    --footer-link-color: #333;
+    --footer-link-hover-color: #007bff;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 15px;
+      font-size: 14px;
+    }
+  
+    .social-links {
+      margin-top: 10px;
+    }
+  
+    .social-links a {
+      margin: 0 5px;
+    }
+  }
+  

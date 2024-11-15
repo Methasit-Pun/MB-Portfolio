@@ -6,6 +6,7 @@ import { ThemeProvider } from 'styled-components';
 import useDarkMode from 'use-dark-mode';
 import AppContext from './AppContext';
 import MainApp from './MainApp';
+import Footer from './components/Footer';
 import GlobalStyles from './theme/GlobalStyles';
 import { lightTheme, darkTheme } from './theme/themes';
 
@@ -23,7 +24,9 @@ function App() {
           </BrowserRouter>
         </div>
       </ThemeProvider>
+      <Footer />
     </AppContext.Provider>
+
   );
 }
 

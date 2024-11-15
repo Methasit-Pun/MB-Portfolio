@@ -4,12 +4,13 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  height: 100vh;
+  height: 120vh;
   flex-direction: row;
+  min-height: 100vh;
 }
 
 .navbar-custom {
-  font-size:large;
+  font-size:medium;
 }
 
 .navbar__link {
@@ -48,15 +49,26 @@
 }
 
 .MainApp {
-  margin-top: 8vh;
+  margin-top: 20vh;
   height: 90vh;
 }
 
 .main {
+  flex-grow:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.main-2 {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   height: 100%;
 }
+
+
 
 .section-content-container {
   display: flex;
@@ -100,6 +112,27 @@ section.timeline-card-content div.card-description > p {
   font-weight: 500;
 }
 
+.footer {
+  background-color: var(--footer-background);
+  color: var(--footer-text);
+  text-align: center;
+  position: 10px;
+  padding: 20px;
+  margin-top: 70px;  /* Push footer to the bottom */
+}
+
+/* Ensure the footer has a consistent layout */
+.footer-content {
+  max-width: 120px;
+  margin: 0 auto;
+}
+.main-2 .footer{
+  background-color: var(--footer-background);
+  color: var(--footer-text);
+  text-align: center;
+  padding: 20px;
+  margin-top: 100%;  /* Push footer below main content */
+}
 .social {
   position: relative;
   margin-top: 60px;

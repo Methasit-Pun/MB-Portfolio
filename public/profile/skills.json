@@ -1,5 +1,5 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "intro": "I thrive on expanding my knowledge and exploring new technologies. Here are key languages, tools, and platforms I've worked with:",
     "skills": [{
      
             "title": "Languages & Databases",
@@ -23,9 +23,54 @@
                 },
                 {
                     "icon": "images/skills/mysql.png",
-                    "title": "MySQL"
+                    "title": "MySQL" 
+                },
+                {
+                    "icon": "images/skills/C.png",
+                    "title": "C" 
+                },
+                {
+                    "icon": "images/skills/C++.png",
+                    "title": "C++" 
+                },
+                {
+                    "icon": "images/skills/dart.png",
+                    "title": "Dart" 
                 }
         ]},
+        {
+            "title": "Machine Learning Library",
+            "items" : [
+                {
+                    "icon": "images/skills/numpy.png",
+                    "title": "Numpy"
+                },
+                {
+                    "icon": "images/skills/matplotlib.png",
+                    "title": "Matplotlib"
+                },
+                {
+                    "icon": "images/skills/pandas.png",
+                    "title": "Pandas"
+                },
+                {
+                    "icon": "images/skills/opencv.png",
+                    "title": "opencv"
+                },
+                {
+                    "icon": "images/skills/tf.png",
+                    "title": "Tensorflow"
+                },
+                {
+                    "icon": "images/skills/keras.png",
+                    "title": "Keras"
+                },
+                {
+                    "icon": "images/skills/pytorch.png",
+                    "title": "Pytorch"
+                }
+            ]
+        },
         {
             "title": "Frameworks & Technologies",
             "items" : [
@@ -40,6 +85,10 @@
                 {
                     "icon": "images/skills/nodejs.png",
                     "title": "Nodejs"
+                },
+                {
+                    "icon": "images/skills/flutter.png",
+                    "title": "Flutter"
                 }
             ]
         },

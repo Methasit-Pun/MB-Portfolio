@@ -1,33 +1,34 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
+            "title": "President",
+            "subtitle": "Intania Open Innovation Club",
+            "workType": "Full Time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Led the end-to-end planning and execution of a startup competition with 80+ participants.",
+                "Secured participation of 15 startup CEOs and founders as mentors, judges, and keynote speakers.",
+                "Facilitated mentorship for 9 startups, leading to improved business strategies."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "Aug 2023 - Present"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "Activity Organizer",
+            "subtitle": "CU Leadership Club",
+            "workType": "Part Time",
             "workDescription": [
-                "Worked on abc."
+                "Organized and managed leadership development workshops, securing 15 mentors for over 100 attendees.",
+                "Achieved a 90% participant satisfaction rate."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "Aug 2023 - May 2024"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Project Manager",
+            "subtitle": "ISE 1ST MEET",
+            "workType": "Part Time",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Managed and coordinated activities for the ISE Freshman Welcoming event for 100+ participants."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "July 2023 - August 2023"
         }
     ]
 }

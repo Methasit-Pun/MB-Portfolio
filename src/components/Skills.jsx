@@ -9,9 +9,9 @@ import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   iconStyle: {
-    height: 75,
-    width: 75,
-    margin: 10,
+    height: 50,
+    width: 50,
+    margin: 8,
     marginBottom: 0,
   },
   introTextContainer: {
@@ -39,7 +39,7 @@ function Skills(props) {
   }, []);
 
   return (
-    <>
+    <main className="main-2">
       <Header title={header} />
       {data ? (
         <Fade>
@@ -66,7 +66,7 @@ function Skills(props) {
           </div>
         </Fade>
       ) : <FallbackSpinner /> }
-    </>
+    </main>
   );
 }
 

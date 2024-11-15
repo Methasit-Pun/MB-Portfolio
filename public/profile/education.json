@@ -1,19 +1,23 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"Bachelor of Engineering in Robotics and Artificial Intelligence",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "June 2022 - Present",
+            "cardTitle": "Bachelor of Engineering in Robotics and Artificial Intelligence",
+            "cardSubtitle":"• First placed team in Major Robot racing competition",
+            "cardDetailedText": "GPAX: 3.31",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/chula.png"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "April 2022",
+            "cardTitle": "Samsen Wittayalai School (Science-Math)",
+            "cardSubtitle":"• Earned 1st Runner-Up at Thailand World Robot Olympiad 2018 \n• Attained 2nd place in the Samsen Robot Racing Competition",
+            "cardDetailedText": "GPAX: 3.95",
+            "icon" : {
+                "src": "images/education/ss.jpg"
+            }
+
         }
     ]
 }
